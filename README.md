@@ -41,7 +41,7 @@ Follow these instructions to get the project up and running on your local machin
 1. Clone the repository:
 
     ```bash
-    git@github.com:MihirTank03/OS-CPU-SCHEDULING-VISUALIZER.git
+    https://github.com/MihirTank03/OS-CPU-SCHEDULING-VISUALIZER.git
     
 2. Open `index.html` in your browser.
 
