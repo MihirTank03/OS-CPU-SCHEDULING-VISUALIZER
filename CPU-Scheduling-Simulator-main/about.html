@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="dark-theme.css">
+
+    <!-- fontawesome for icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>CPU Scheduling Simulator</title>
+</head>
+
+<body class="dark-theme">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="index.html" class="navbar-brand">
+            <i class="fas fa-laptop-code"></i> <span class="brand-text">CPU Scheduler</span>
+        </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-window-close" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="main-header">
+        <h1 class="title-main"><span class="text-cyan">About</span> <span class="text-green">CPU</span> <span class="text-orange">Simulator</span></h1>
+        <p class="subtitle">Meet the developer behind this innovative CPU scheduling simulator</p>
+    </section>
+
+    <!-- Developer Section -->
+    <div class="container">
+        <section class="content-wrapper" style="justify-content: center;">
+            <!-- Developer Card -->
+            <div style="text-align: center; width: 100%; margin-bottom: 3rem;">
+                <h2 class="card-title" style="font-size: 2rem; margin-bottom: 2rem; justify-content: center; display: flex; align-items: center; gap: 10px;">
+                    <i class="fas fa-user-circle text-cyan"></i> <span class="text-cyan">Developer Profile</span>
+                </h2>
+
+                <div class="sub_container" data-aos="zoom-in-up" style="justify-content: center;">
+                    <!-- Developer Profile -->
+                    <div class="teams">
+                        <img src="profile/mihir-profile.jpg" alt="Mihir Tank">
+                        <div class="name">Mihir Tank</div>
+                        <div class="desig">Full Stack Developer</div>
+                        <div class="about">Passionate about building amazing web applications and solving complex problems with clean code</div>
+                        <div class="social-links_1">
+                            <a href="https://www.linkedin.com/in/mihir-tank-182120344?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/MihirTank03" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/mihir_.xd?igsh=MTZpZmhod3hyMTRhYQ==" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/about.js"></script>
+</body>
+
+</html>
